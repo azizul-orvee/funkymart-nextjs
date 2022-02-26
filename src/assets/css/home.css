@@ -1,0 +1,175 @@
+.review-slider-container {
+  margin-top: 32px;
+  margin-bottom: 10%;
+}
+
+.home-container {
+  background-color: #2f3292;
+}
+
+.funky {
+  background-color: #2f3292;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.lottie {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.review-slider-container marquee img {
+  width: 300px !important;
+  height: 400px;
+  border-radius: 20px;
+  margin: 0 15px;
+}
+
+.review-slider-container marquee {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.bg-blue {
+  background-color: #97b0ff;
+}
+
+.home-welcome {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #97b0ff;
+}
+
+.home-side-image {
+  max-width: 300px;
+  float: left;
+}
+
+.home-welcome-section {
+  width: 530px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-welcome-h1 {
+  font-family: PromoBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffd9e0;
+  -webkit-text-stroke: 1px #2f3292;
+  margin-bottom: 18px;
+}
+
+.home-welcome-p {
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  color: #2f3292;
+}
+
+.home-about {
+  display: flex;
+  padding: 4% 0px 5%;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+}
+.home-about.bg-white {
+  background: white;
+}
+
+.home-about-text h1 {
+  text-align: left;
+}
+
+.home-about > div {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.connect-wallet-btn {
+  width: 184px;
+  height: 48px;
+  background: #7687ff;
+  border-radius: 100px;
+  border: none;
+  font-family: Promo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  color: white;
+  cursor: pointer;
+}
+
+.green-bg svg {
+  background: #d9ef9d;
+}
+
+@media screen and (max-width: 768px) {
+  .home-side-image {
+    display: none;
+  }
+
+  .home-welcome-section {
+    position: initial;
+    transform: none;
+    width: 90%;
+    margin: 10% auto 30%;
+  }
+
+  .home-welcome-h1 {
+    font-size: 3rem;
+  }
+
+  .home-about {
+    flex-direction: column-reverse;
+    padding: 10% 0;
+  }
+
+  .home-about.bg-white {
+    flex-direction: column;
+  }
+
+  .home-about > div {
+    width: 100%;
+    padding: 0px 16px;
+    text-align: center;
+  }
+
+  .home-about-text h1 {
+    text-align: center;
+  }
+  .connect-wallet-btn {
+    margin: auto;
+  }
+
+  .review-slider-container {
+    margin-bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .review-slider-container marquee img {
+    width: 230px !important;
+    height: 307px;
+    border-radius: 20px;
+    margin: 0 15px;
+  }
+}
