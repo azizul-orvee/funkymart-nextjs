@@ -1,10 +1,11 @@
 import {
   About,
+  DonutSlider,
   FunkyMart,
   HomeWelcome,
   PlaneLanding,
   Village,
-} from '../components/pages/Home';
+} from "../components/pages/Home";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Village />
         <About />
         <FunkyMart />
+        {/* <DonutSlider /> */}
       </div>
     </div>
   );
