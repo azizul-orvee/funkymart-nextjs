@@ -5,6 +5,7 @@ import {
   Footer,
   FunkyMart,
   HomeWelcome,
+  Navbar,
   PlaneLanding,
   SliderSlick,
   Village,
@@ -15,6 +16,7 @@ export default function Home() {
     <div>
       <div className="scroll">
         <section className="one">
+          <Navbar />
           <PlaneLanding />
         </section>
         <section>

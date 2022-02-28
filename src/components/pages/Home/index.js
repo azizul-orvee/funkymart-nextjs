@@ -6,3 +6,4 @@ export { FunkyMart } from "./sections/FunkyMart";
 export { DonutSlider } from "./sections/DonutSlider";
 export { SliderSlick } from "./sections/SliderSlick";
 export { Footer } from "./sections/Footer";
+export { Navbar } from "./sections/Navbar";
