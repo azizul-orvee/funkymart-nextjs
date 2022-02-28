@@ -2,14 +2,126 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .connect-wallet-btn {
+    @apply bg-[#7687ff] text-white py-2 px-4 rounded-full w-[184px] h-[48px];
+  }
+}
+
+/* @layer base {
+  @font-face {
+    font-family: "PoppinsRegular";
+    src: local("PoppinsRegular"),
+      url(../assets/fonts/PoppinsRegular.ttf) format("ttf");
+  }
+
+  @font-face {
+    font-family: "ExtraLight";
+    font-weight: 400;
+    src: local("ExtraLight"), url(../assets/fonts/ExtraLight.otf) format("otf");
+  }
+
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-Bold"), url(../assets/fonts/Promo-Bold.otf) format("otf");
+  }
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-Light"),
+      url(../assets/fonts/Promo-Light.otf) format("otf");
+  }
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-Medium"),
+      url(../assets/fonts/Promo-Medium.otf) format("otf");
+  }
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-Normal"),
+      url(../assets/fonts/Promo-Normal.otf) format("otf");
+  }
+
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-Regular"),
+      url(../assets/fonts/Promo-Regular.otf) format("otf");
+  }
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-SemiBold"),
+      url(../assets/fonts/Promo-SemiBold.otf) format("otf");
+  }
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-Thin"), url(../assets/fonts/Promo-Thin.otf) format("otf");
+  }
+  @font-face {
+    font-family: "Promo";
+    font-weight: 400;
+    src: local("Promo-UltraLight"),
+      url(../assets/fonts/Promo-UltraLight.otf) format("otf");
+  }
+} */
+
+@font-face {
+  font-family: "PromoBold";
+  src: url(../assets/fonts/Promo-Bold.otf);
+}
+
+@font-face {
+  font-family: "PromoLight";
+  src: url(../assets/fonts/Promo-Light.otf);
+}
+
+@font-face {
+  font-family: "PromoMedium";
+  src: url(../assets/fonts/Promo-Medium.otf);
+}
+
+@font-face {
+  font-family: "PromoNormal";
+  src: url(../assets/fonts/Promo-Normal.otf);
+}
+
+@font-face {
+  font-family: "PromoRegular";
+  src: url(../assets/fonts/Promo-Regular.otf);
+}
+
+@font-face {
+  font-family: "PromoUltraLight";
+  src: url(../assets/fonts/Promo-UltraLight.otf);
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url(../assets/fonts/PoppinsRegular.ttf);
+}
+
+@font-face {
+  font-family: "PromoSemiBold";
+  src: url(../assets/fonts/Promo-SemiBold.otf);
+}
+
+@font-face {
+  font-family: "PromoThin";
+  src: url(../assets/fonts/Promo-Thin.otf);
+}
 
 section {
-    height: 100vh;
-    scroll-snap-align: start;
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
 .scroll {
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-} 
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {
   About,
   DonutSlider,
+  Footer,
   FunkyMart,
   HomeWelcome,
   PlaneLanding,
@@ -30,6 +31,7 @@ export default function Home() {
         </section>
         <section>
           <DonutSlider />
+          <Footer />
         </section>
       </div>
     </div>
